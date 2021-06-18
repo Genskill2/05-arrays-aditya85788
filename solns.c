@@ -57,7 +57,7 @@ int mode(int a[],int x)
   for(int i=0;i<x;i++)
   {
     if(b[i]>maxi)
-      maxi=b[i];
+      maxi=a[i];
   }
   return maxi;
 }
