@@ -53,10 +53,10 @@ int mode(int a[],int x)
 		}
 		b[i]=count;
 	}
-	int maxi=b[0];
+	int maxi=a[0],flag=b[0];
   for(int i=0;i<x;i++)
   {
-    if(b[i]>maxi)
+    if(b[i]>flag)
       maxi=a[i];
   }
   return maxi;
